@@ -1,11 +1,10 @@
-/* Fondo general */
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   background: url("assets/bg.jpg") no-repeat center/cover fixed;
 }
 
-/* Contenedor central */
 .container {
   min-height: 100vh;
   backdrop-filter: brightness(0.9);
@@ -13,7 +12,6 @@ body {
   flex-direction: column;
 }
 
-/* Header */
 header {
   display: flex;
   align-items: center;
@@ -25,7 +23,6 @@ header {
   height: 60px;
 }
 
-/* Contenido principal */
 main {
   flex: 1;
   display: grid;
@@ -45,7 +42,6 @@ main a {
   color: white;
 }
 
-/* Footer */
 footer {
   text-align: center;
   font-size: 0.9rem;
